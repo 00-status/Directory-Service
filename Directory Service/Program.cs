@@ -10,7 +10,15 @@ namespace Directory_Service
     {
         static void Main(string[] args)
         {
+            DirectoryService ds = new DirectoryService();
 
+            string command;
+
+            while (ds.working)
+            {
+                command = Console.ReadLine();
+                ds.Commands(command);
+            }
         }
     }
 }

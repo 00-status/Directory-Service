@@ -8,5 +8,6 @@ namespace Directory_Service
 {
     interface Item
     {
+        string SimpleFormat();
     }
 }
