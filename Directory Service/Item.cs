@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Directory_Service
 {
-    class Program
+    interface Item
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
