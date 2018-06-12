@@ -9,5 +9,7 @@ namespace Directory_Service
     interface Item
     {
         string SimpleFormat();
+        string ComplexFormat();
+        void AddAttribute(string key, string val);
     }
 }
