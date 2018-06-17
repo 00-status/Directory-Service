@@ -19,6 +19,13 @@ namespace Directory_Service
             this.id = id;
         }
 
+        public void AddAttribute(string[] attributeNames, string[] attributeFields)
+        {
+            for (int i = 0; i < attributeNames.Length; i++)
+            {
+                attributes[attributeNames[i]] = attributeFields[i];
+            }
+        }
         // A method that will add an attribute to the artifact's dictionary
         public void AddAttribute(string key, string val)
         {
